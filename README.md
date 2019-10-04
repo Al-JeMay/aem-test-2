@@ -26,7 +26,7 @@ npm install
 Step 2
 ```bash
 ng serve
+```
 
 ## License
-```bash
 [MIT](https://choosealicense.com/licenses/mit/)
