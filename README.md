@@ -28,5 +28,5 @@ Step 2
 ng serve
 
 ## License
-```
+```bash
 [MIT](https://choosealicense.com/licenses/mit/)
