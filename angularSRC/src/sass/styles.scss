@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @import "./variables";
+// @import "./header";
+// @import "./mixins";
+
+
+// .contact button {
+//   @extend header; /// inheritance
+//   background: lightcoral; // overwrite
+//   width: 100% - 50%; /// - + / *
+
+@import "./myTheme";
+@import "~bootstrap/scss/bootstrap";
+
+

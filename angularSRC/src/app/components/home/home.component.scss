@@ -1,0 +1,10 @@
+
+@import "~src/sass/mixins";
+
+.footerMe {
+    @include flexRight(column, none, 6vh);
+    
+    h6 {
+        font-size:14px;
+    }
+}

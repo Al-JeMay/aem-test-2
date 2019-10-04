@@ -1,0 +1,18 @@
+@mixin flexCenter($direction, $background, $height) {
+  display: flex;
+  height: $height;
+  justify-content: center;
+  align-items: center;
+  flex-direction:$direction;
+  background : $background;
+}
+
+@mixin flexRight($direction, $background, $height) {
+  display: flex;
+  height: $height;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction:$direction;
+  background : $background;
+}
+
