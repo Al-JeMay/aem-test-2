@@ -28,4 +28,5 @@ Step 2
 ng serve
 
 ## License
+```
 [MIT](https://choosealicense.com/licenses/mit/)
