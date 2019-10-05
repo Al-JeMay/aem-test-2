@@ -1,32 +1,33 @@
 # Angular AEM Final Test
 
+----
 ## Installation
-Install both Server & Client.
 
+> Install both Server (Express) & Client (Angular)
+
+----
 ## Install the Server (Express)
-Step 1
-```bash
-npm install 
-```
-Step 2
-```bash
-npm start
-```
+1. npm install
+2. npm start
 
+>server will run on localhost port 3000
+
+    http://localhost:3000
+
+----
 ## Install the Client (Angular)
-Step 1
-```bash
-navigate to angularSRC folder
-```
+1. navigate to **angularSRC** folder
+2. npm install
+3. ng serve 
 
-Step 1
-```bash
-npm install 
-```
-Step 2
-```bash
-ng serve
-```
+>development server will run on localhost port 4200
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+    http://localhost:4200
+
+
+----
+
+
+----
+## thanks
+* [Al~Jemay](https://github.com/Al-JeMay/aem-test-2)

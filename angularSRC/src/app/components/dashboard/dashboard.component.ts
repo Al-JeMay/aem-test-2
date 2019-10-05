@@ -27,7 +27,7 @@ export class DashboardComponent implements OnInit {
 
   public userList = null;
 
-  
+
 
   constructor(
     private authService:AuthService,
@@ -37,10 +37,9 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     this.authService.getDashboard().subscribe(data => {
 
-      
-      const barCharts = data.charts.chartbar;
-      const chartDonut = data.charts.chartDonut;
-      const tableUsers = data.charts.tableUsers;
+      const barCharts = data.chartbar;
+      const chartDonut = data.chartDonut;
+      const tableUsers = data.tableUsers;
 
       // console.log(tableUsers)
 

@@ -16,7 +16,7 @@ export class AuthService {
     let headers = new HttpHeaders();
     headers.append('Content-Type','application/json');
     return this.http.post(
-      'http://localhost:3000/users/authenticate',
+      'http://localhost:3000/api/account/login',
       user,
       {headers: headers})
         .pipe(map((response: any) => response));
@@ -28,7 +28,7 @@ export class AuthService {
     headers.append('Authorization', `Bearer ${this.authToken}`);
     headers.append('Content-Type','application/json');
     return this.http.get(
-      'http://localhost:3000/users/profile',
+      'http://localhost:3000/api/account/profile',
       {headers: headers})
         .pipe(map((response: any) => response));
   }
@@ -39,7 +39,7 @@ export class AuthService {
     headers.append('Authorization', `Bearer ${this.authToken}`);
     headers.append('Content-Type','application/json');
     return this.http.get(
-      'http://localhost:3000/users/dashboard',
+      'http://localhost:3000/api/dashboard',
       {headers: headers})
         .pipe(map((response: any) => response));
   }

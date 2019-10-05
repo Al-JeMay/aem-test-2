@@ -16,7 +16,7 @@ const app = express();
 
 //// User route
 const users = require('./routes/users');
-// const charts = require('./routes/charts');
+const dashboard = require('./routes/dashboard');
 
 //// Port number
 const port = 3000;
@@ -36,8 +36,10 @@ app.use(passport.session());
 
 require('./config/passport')(passport);
 
-app.use('/users', users);
-// app.use('/dashboard', charts);
+//// User's routes
+app.use('/api/account', users);
+//// Dashboard routes
+app.use('/api/dashboard', dashboard);
 
 //// Index Route
 app.get('/', (req, res)=>{
