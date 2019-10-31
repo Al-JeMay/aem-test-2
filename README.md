@@ -1,4 +1,4 @@
-# Angular AEM Final Test
+# Angular Authentication User
 
 ----
 ## Installation
